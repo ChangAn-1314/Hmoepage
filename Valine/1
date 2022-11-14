@@ -1,0 +1,42 @@
+iled to push some refs to 'https://github.com/ChangAn-1314/Hmoepage.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+ChangAn@Mechrev-Laptop MINGW64 /d/工作/网站/Github/Homepage (master)
+$ git remote -v
+origin  https://github.com/ChangAn-1314/Hmoepage.git (fetch)
+origin  https://github.com/ChangAn-1314/Hmoepage.git (push)
+
+ChangAn@Mechrev-Laptop MINGW64 /d/工作/网站/Github/Homepage (master)
+$ git push -u origin master
+fatal: unable to access 'https://github.com/ChangAn-1314/Hmoepage.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+
+ChangAn@Mechrev-Laptop MINGW64 /d/工作/网站/Github/Homepage (master)
+$ git push -u origin master
+To https://github.com/ChangAn-1314/Hmoepage.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/ChangAn-1314/Hmoepage.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+ChangAn@Mechrev-Laptop MINGW64 /d/工作/网站/Github/Homepage (master)
+$ git push -u origin master
+To https://github.com/ChangAn-1314/Hmoepage.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/ChangAn-1314/Hmoepage.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+ChangAn@Mechrev-Laptop MINGW64 /d/工作/网站/Github/Homepage (master)
+$ git push -u origin master
+fatal: unable to access 'https://github.com/ChangAn-1314/Hmoepage.git/': Failed to connect to github.com port 443 after 21057 ms: Timed out
+
